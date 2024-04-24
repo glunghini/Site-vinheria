@@ -1,0 +1,138 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background-color: white;
+    margin-top: 130px;
+    
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background-color: bisque;
+    text-align: center;
+    
+}
+
+.xd{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 36, 5);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: #e7191f;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+a:hover { 
+    color: #e7191f;
+}
+
+.banner {
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+}
+
+.wewe{
+    margin-top: 20px;
+    height: 200px;
+    width: 1200px;
+    color: #e7191f;
+    margin-left: 350px;
+    text-align: center;
+
+}
+
+.xdd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ff {
+    background-color: bisque;
+	color: #e7191f;
+	padding: 20px;
+	text-align: center;
+	margin-top: 450px;
+    border-top: 1px solid rgb(59, 36, 5);
+}
+
+.kk li {
+    display: inline;
+}
+
+.kk ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ss {
+    color: #e7191f;
+}
+h3 {
+    width: 200px;
+    height: 100px;
+}
+.mmm {
+    border: 5px solid #e7191f;
+    padding: 40px;
+}
+
+button {
+    margin-top: 10px;
+}
+.imggg {
+    color: #e7191f;
+    font-size: 10px;
+}
+
+.imggg:hover {
+    font-size: 10.5px;
+    transition: all 1s;
+}
+
+.sdsd {
+    width: 200px;
+    height: 200px;
+}
+.sdsd:hover {
+    width: 210px;
+    height: 210px;
+    transition: all 0.5s;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: bisque;
+    border-radius: 5px;
+}

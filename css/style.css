@@ -1,0 +1,27 @@
+/* index */
+.index{
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    margin-top: 200px;
+
+}
+
+.caixa-branca{
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: bisque;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+/* homepage */
+
+
+
