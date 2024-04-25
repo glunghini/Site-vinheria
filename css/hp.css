@@ -140,7 +140,7 @@ h2 {
 .lgg{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
-    background-image: url(../imagens/fundologin.png);
+    background-image: url('https://glunghini.github.io/../imagens/fundologin.png');
     background-repeat: no-repeat;
     background-size: auto;
     margin-top: 300px;
