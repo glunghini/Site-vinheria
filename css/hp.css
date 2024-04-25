@@ -136,7 +136,6 @@ h2 {
     background-color: bisque;
     border-radius: 5px;
 }
-<<<<<<< HEAD
 
 .lgg{
     font-family: 'Courier New', Courier, monospace;
@@ -187,23 +186,4 @@ input {
     top: 0;
     background-color: bisque;
     text-align: center;
-}
-=======
-.luiss {
-    width: px;
-    height: 500px;
-}
-.papa {
-    text-align: center;
-}
-.popo {
-    background-color: #4CAF50; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho da fonte */
-    border: none; /* Sem borda */
-    border-radius: 4px; /* Borda arredondada */
-    cursor: pointer; /* Cursor ao passar o mouse */
-    float: right;
->>>>>>> 33fc6999634233a0194ab8711257765060e96c98
 }
