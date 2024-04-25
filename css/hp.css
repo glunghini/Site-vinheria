@@ -136,3 +136,54 @@ h2 {
     background-color: bisque;
     border-radius: 5px;
 }
+
+.lgg{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background-image: url(../imagens/fundologin.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 300px;
+}
+ 
+.senha {
+   
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 2px solid black;
+   
+   
+   
+}
+input {
+    width: 400px;
+    height: 30px;
+}
+.ggt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fff {
+    background-color: bisque;
+	color: #e7191f;
+	padding: 20px;
+	text-align: center;
+	margin-top: 200px;
+    border-top: 1px solid rgb(59, 36, 5);
+}
+
+.ppppi {
+    padding-top:300px ;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background-color: bisque;
+    text-align: center;
+}
