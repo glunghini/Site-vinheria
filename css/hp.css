@@ -187,3 +187,21 @@ input {
     background-color: bisque;
     text-align: center;
 }
+
+.spp{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background-image: url('../imagens/Vaultboysuporte.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 300px;
+}
+
+.trt {
+    width: 300px;
+    height: 100px;
+}
+
+#suporte {
+    height: 100px;
+}

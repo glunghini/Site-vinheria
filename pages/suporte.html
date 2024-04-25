@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinheria | Login</title>
+    <title>Vinheria | Suporte</title>
     <link rel="stylesheet" href="../css/hp.css">
     <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
-<body class="lgg">
-    <header class="ppppi">
+<body class="spp">
+    <header>
         <div class="xd">
             <a href="homepage.html"><img src="../imagens/Vinheria_Agnello-removebg-preview.png" alt="Logo vinheria agnello" class="logo"></a>
             <img src="../imagens/126510.png" alt="Carrinho" class="cart">
@@ -17,21 +17,24 @@
             <ul>
                 <a href=""><li>Sobre nós</li></a>
                 <a href=""><li>Produtos</li></a>
-                <a href="suporte.html"><li>Suporte</li></a>
+                <a href="login.html"><li>Login</li></a>
             </ul>
         </nav>
     </header>
     <section>
         <div class="senha">
             <div class="ggt">
-                <h3 class="trt">Acesse sua conta:</h3>
+                <h3 class="trt">Nos relate seu problema:</h3>
+                <label for="nome">Digite seu nome completo:</label>
+                <input type="text" id="nome">
+                <br>
                 <label for="email">Digite seu email:</label>
                 <input type="text" id="email">
                 <br>
-                <label for="password">Digite sua senha:</label>
-                <input type="password" id="password">
+                <label for="problema">Descreva seu problema com detalhes:</label>
+                <textarea name="problema" id="xdddddd" cols="55" rows="8"></textarea>
                 <br>
-                <button onclick="logar()">Login</button>
+                <button onclick="problema()">Enviar</button>
             </div>
         </div>
     </section>

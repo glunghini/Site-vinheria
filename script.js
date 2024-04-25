@@ -43,3 +43,12 @@ function logar(){
           });
     }
 }
+
+    function problema(){
+        Swal.fire({
+            icon: "success",
+            title: "Sucesso!",
+            text: "Seu problema já nos foi enviado!",
+            timer: 1500
+          });
+    }
