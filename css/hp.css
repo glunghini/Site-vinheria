@@ -330,3 +330,25 @@ input {
     justify-content: center;
     margin-top: 100px;
 }
+
+.mmmm {
+    text-align: center;
+    width: 900px;
+    height:1150px;
+    border: 5px solid #e7191f;
+    padding: 40px;
+    background-color: bisque;
+}
+.produtos {
+    display: flex;
+    justify-content: center;
+}
+
+.ffx {
+    background-color: bisque;
+	color: #e7191f;
+	padding: 20px;
+	text-align: center;
+	margin-top: 150px;
+    border-top: 1px solid rgb(59, 36, 5);
+}
