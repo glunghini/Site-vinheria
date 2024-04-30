@@ -2,7 +2,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     background-image: url('../imagens/madeira.png');
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     background-size: auto;
     margin-top: 130px;
     
@@ -146,7 +146,7 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     background-image: url('../imagens/fundologin.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: auto;
     margin-top: 300px;
 }
@@ -197,7 +197,7 @@ input {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     background-image: url('../imagens/Vaultboysuporte.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: auto;
     margin-top: 300px;
 }
