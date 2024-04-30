@@ -62,12 +62,13 @@ h1 {
 }
 
 .wewe{
+
     margin-top: 20px;
-    height: 200px;
-    width: 1200px;
     color: #e7191f;
-    margin-left: 350px;
     text-align: center;
+    max-width: 1200px;
+    margin-left: auto; 
+    margin-right: auto; 
 
 }
 
@@ -218,19 +219,20 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 800px;
+    height: auto;
 }
 .sobri {
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .ffff {
     background-color: bisque;
-	color: #e7191f;
-	padding: 20px;
-	text-align: center;
-	margin-top: 900px;
+    color: #e7191f;
+    padding: 20px;
+    text-align: center;
     border-top: 1px solid rgb(59, 36, 5);
+    clear: both;
+    margin-top: 100px;
 }
 .tutu {
     display: flex;
@@ -353,4 +355,13 @@ input {
 	text-align: center;
 	margin-top: 150px;
     border-top: 1px solid rgb(59, 36, 5);
+}
+
+.sobre {
+    width: 900px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
