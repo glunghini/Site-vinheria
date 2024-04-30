@@ -52,3 +52,38 @@ function logar(){
             timer: 1500
           });
     }
+
+
+    function mandar(){
+        var preço = parseFloat(document.getElementById("produto").innerText)
+        var qtd = document.getElementById("quantidade").value
+
+        var result = preço * qtd
+        document.getElementById("produto").innerText = result.toFixed(2)
+
+    }
+
+    function carrin() {
+        Swal.fire({
+            title: "Sucesso!",
+            text: "Seu item foi adicionado ao carrinho",
+            timer: 1500
+          });
+
+    }
+var certo = 'FIAP2024'
+function cupom() {
+    var cupom = document.getElementById("cupom").value;
+    var preco = document.getElementById("produto").innerText;
+    var precoFloat = parseFloat(preco);
+    
+    if (cupom === certo) {
+        var desconto = precoFloat * 0.10;
+        var precoComDesconto = precoFloat - desconto;
+        
+        document.getElementById("produto").innerText = precoComDesconto.toFixed(2);
+        Swal.fire("Cupom aplicado!", "Você obteve 10% de desconto!", "success");
+    } else {
+        Swal.fire("Cupom inválido!", "Por favor, insira um cupom válido.", "error");
+    }
+}

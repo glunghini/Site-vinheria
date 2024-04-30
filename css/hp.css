@@ -305,13 +305,13 @@ input {
     cursor: pointer;   
 }
 
-.kkj {
+.kkj{
 
     width: 600px;
     height: 200px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .kkjj {
@@ -364,4 +364,9 @@ input {
     justify-content: center;
     flex-direction: column;
 
+}
+
+.rrry{
+    height: 30px;
+    width: 30px;
 }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinho Le DIX de Los Vascos 2017</title>
     <link rel="stylesheet" href="../css/hp.css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
 <body>
     <header>
@@ -29,14 +30,19 @@
             <h2 class="lslsl">Vinho Le DIX de Los Vascos 2017</h2>
             <div class="lsls">
                 <div class="kkj">
-                    <h1>771,90R$</h1>
+                    <h1 id="produto">771,90</h1><h1>R$</h1>
                 </div>
                 <div class="kkjj">
                     <p>Insira seu cupom:</p>
                     <input type="text" id="cupom" value="">
+                    <button onclick="cupom()">Ir</button>
                 </div>
                 <div class="kkj">
-                    <button class="popo">Adicionar ao carrinho</button>
+                    <button class="popo" onclick="carrin()">Adicionar ao carrinho</button>
+                    <div>
+                        <input type="number" class="rrry" id="quantidade">
+                        <button onclick="mandar()">Ir</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,5 +64,7 @@
             </ul>
         </div>
     </footer>
+    <script src="../script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
